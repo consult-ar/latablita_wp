@@ -1,0 +1,599 @@
+/*
+Theme Name: Divi Child
+Theme URI:  #
+Description:    Tema Child para Latablita
+Author:     Consult-ar
+Autor URI:  #
+Template:   Divi
+Version:    1.0.0
+*/
+
+/*Los Estilos Empiezan Acá*/
+html {
+    overflow-x: hidden;
+}
+/*estilos mantenimiento*/
+
+/*cajas Destacados home*/
+.carousel-slider__product h3 {
+    font-family: 'Patua One';
+    text-align: center!important;
+}
+#page-container .carousel-slider__product {
+    box-shadow: 0 1px 2px rgba(0,0,0,0)!important;
+    display:flex!important;
+    flex-direction:column;
+    justify-content:space-evenly;
+    transition: all ease .4s;
+    padding-top: 20px!important;
+    border: solid 1px rgba(139,0,26,0.41);
+    padding-bottom: 10px;
+}
+#page-container  .carousel-slider__product a.button {
+    display: none!important;
+}
+#page-container .carousel-slider__product:hover{
+    box-shadow: 0 1px 16px rgba(0,0,0,.3)!important;
+}
+#page-container .carousel-slider__product a.button, .form-tabla .wpcf7-submit {
+    color: #ffffff!important;
+    border-width: 0px!important;
+    border-radius: 0px!important;
+    padding: 16px 5px!important;
+    letter-spacing: 1px!important;
+    font-size: 11px!important;
+    font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+   
+}
+.consultar-carousel .owl-item img {
+    display: block!important;
+    max-width: 100%!important;
+    height: auto!important;
+    width: unset!important;
+    margin: auto!important;
+}
+/*News Styles*/
+@media(min-width:992px){
+    #FormNews form p{
+        display:flex;
+        flex-direction: row;;
+        align-items:center;
+    }
+    #FormNews .wpcf7-text{
+        width:320px!important;
+        margin-right:auto!important
+    }
+        
+
+}
+#FormNews .wpcf7-form .wpcf7-submit{
+    font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    font-size: 14px!important;
+}
+@media(max-width:991px){
+    #FormNews .wpcf7-form .wpcf7-submit{
+        margin-top: 20px;
+        display: block!important;
+        margin-right: auto;
+    }
+}
+/*menu footer*/
+@media(max-width:991px){
+    ul#mobile_menu1 {
+        position: relative;
+        width: 100%!important;
+    }
+
+    .et_mobile_nav_menu .opened {
+        width: 100%!important;
+        display: block;
+    }
+
+    .et_mobile_nav_menu {
+        width: 100%;
+        text-align: center!important;
+    }
+
+    .et_mobile_nav_menu a.closed {
+        width: 100%;
+    }
+    .et_mobile_nav_menu .opened li,.et_mobile_nav_menu .closed li{
+        text-align:center
+    }
+}
+/*fin menu footer*/
+/*botones*/
+.consult-style .et_pb_button,
+.woocommerce .button,
+.woocommerce .button:hover,
+.woocommerce #place_order,
+.woocommerce .woocommerce-form-coupon .button{
+    background-color: #8b001a!important;
+    font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    font-size: 14px!important;
+    padding-top: 16px!important;
+    padding-right: 40px!important;
+    padding-bottom: 16px!important;
+    padding-left: 20px!important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.woocommerce .button,
+.woocommerce .button:hover,
+.woocommerce #place_order{
+    padding-right: 20px!important
+}
+/*menu footer*/
+div#footer-menu { overflow: hidden!important; }
+
+/**/
+
+.et_pb_module.et_pb_image.et_pb_image_3_tb_footer {
+    width: 38%;
+    padding-top:0px!important;
+    clear:both
+}
+.et_pb_module.et_pb_image.et_pb_image_2_tb_footer {
+    float: right;
+    clear: right;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_1_tb_footer {
+    float: left;
+    margin: 14px 0 0;
+    width: 60%;
+}
+
+/*cajas de landing*/
+
+.card-consultar {
+    min-height: 380px!important;
+}
+
+.card-consultar .et_pb_image_wrap:after{
+    content:'';
+    display:block;
+    border-bottom:1px solid #8b001a;
+    padding-top:20px;
+}
+.card-consultar img {
+    width: 70px;
+    /* filter: opacity(0.5); */
+}
+/*cotiza tu reunion*/
+.cotiza-form select.wpcf7-select {
+    height: 35px;
+    border: 1px solid rgba(128, 128, 128, .7);
+    border-radius:0px!important
+}
+
+.cotiza-form input.wpcf7-number {
+    border: 1px solid rgba(128, 128, 128, .7);
+}
+/*botones que no se adaptan al estilo*/
+#about-tablita a.et_pb_button:hover, footer .btn-footer:hover, #btn-404:hover {
+    border: 2px solid #fff!important;
+    color: #fff!important
+}
+/*pantalla busqueda*/
+#busqueda-result .et_pb_post {
+    min-height: 430px;
+    max-height: 430px;
+}
+
+#busqueda-result .et_pb_image_container {
+    overflow: hidden;
+    height: 200px;
+}
+
+#busqueda-result .post-content-inner {
+    overflow: hidden;
+    height: 115px;
+}
+/*#top-header #et-secondary-nav {
+    display: none!important;
+}*/
+
+
+@media (max-width: 980px){
+    #et-secondary-menu, #et-secondary-nav {
+        display: unset!important;
+    }
+    #top-header .et-cart-info {
+        margin-left: auto!important;
+    }
+    #top-header {
+        display: block!important;
+
+    }
+    #top-header .container {
+        width: 100%;
+        padding:0px 10px
+    }
+    a.et-cart-info {
+        display: block;
+        margin: 3px;
+        overflow: hidden;
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 981px){
+    .et_fullwidth_secondary_nav #top-header .container {
+        width: 100%;
+        max-width: 100%;
+        padding:10px 30px
+    }
+    a.et-cart-info {
+        margin: 3px;
+        width: 60px!important;
+        height: 21px;
+        display: block!important;
+        overflow: hidden;
+    }
+}
+/*ancho de columnas*/
+@media (min-width: 981px){
+.et_pb_gutters3 .et_pb_column_1_4 {
+    
+    width: 22.75%!important;
+    margin-right: 3%!important;
+}
+}
+/*productos*/
+.products span.et_shop_image {
+    overflow: hidden;
+    height: 330px;
+}
+/*estilos imagenes*/
+.products .et_shop_image img {
+    display: block!important;
+    width: 100%!important;
+    height: 100%!important;
+    object-fit: cover;
+}
+.woocommerce a .onsale {
+    background: #8b001a!important;
+}
+/*checkout*/
+
+.contenedor-checkout {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contenedor-checkout select#dtwc_delivery_time {
+    height: 51px;
+}
+.contenedor-checkout .woocommerce-billing-fields {
+    margin-bottom: 30px;
+}
+
+textarea#order_comments {
+    min-height: 200px;
+}
+
+.datos-clientes, .revisar-compra{
+    margin-bottom:10%;
+    width:100%   
+}
+
+
+
+@media(min-width:992px){
+    .datos-clientes {
+        width: 44%!important;
+        margin: 0 3%;
+    }
+
+    .revisar-compra {
+        width: 44%!important;
+        margin: 0 3%;
+    }
+}
+.product span.now_sold, p.stock.out-of-stock {
+    font-size: 20px;
+    background: #8b001a!important;
+    padding: 8px 15px!important;
+    color: #fff!important;
+    text-align: center;
+   
+}
+.archive .product span.now_sold {
+    display: block!important;
+    position: absolute!important;
+    top: 10px!important;
+    left: 10px!important;
+    border-radius: 3px;
+}
+
+/*listado de productos*/
+.woocommerce li.product, .woocommerce-page ul.products li.product {
+    margin: 0 1.8% 2.992em 0!important;
+    position: relative;
+    /*
+    clear:unset!important;
+    */
+}
+/*wc styles*/
+.archive h2.woocommerce-loop-product__title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* display: block; */
+    /* width: 100%; */
+    white-space: nowrap;
+}
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+    background-color: #ffffff!important;
+    border: 2px solid #8B001A!important;
+    color: #8b001a!important;
+}
+
+.woocommerce a, .posted_in a, .tagged_as a {
+    color: #8a041a;
+}
+/*.et_overlay:before{
+    color: #8a041a;
+}
+.woocommerce footer .consult-style .btn-footer {
+    color: #fff;
+    border-color: #8a041a;
+}
+.woocommerce div.product form.cart .button {
+    color: #8a041a;
+}
+
+
+.entry-summary p.price span {
+    color: #8a041a;
+}
+
+
+.woocommerce-cart .wc-proceed-to-checkout .checkout-button {
+    color: #8a041a!important;
+}
+
+.woocommerce-cart .coupon button.button {
+    color: #8a041a;
+}
+
+
+.woocommerce-cart  .btn-footer, .woocommerce-checkout  .btn-footer {
+    color: #fff;
+    border-color: #8a041a;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    color: #8a041a;
+}*/
+/*existencias*/
+.woocommerce div.product .stock, .woocommerce-page div.product .stock, .wishlist_table tr td.product-stock-status span.wishlist-in-stock {
+    display: none;
+}
+/**/
+.form-tabla .wpcf7-submit {
+    background: #8b001a;
+    font-size: 16px!important;
+    padding: 16px 20px!important;
+    margin-left: auto;
+    display: block;
+}
+
+.form-tabla {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #8b001a;
+    border-radius: 15px;
+}
+.form-tabla input.wpcf7-text , .form-tabla textarea {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0 0px;
+}
+.cotiza-nombre, .cotiza-contacto, .cotiza-datos {
+    margin-bottom: 20px;
+}
+.numero-personas input {
+   border: 1px solid #bbbbbb;
+   padding: 5px;
+   width: 65%;
+}
+.cotiza-datos label{
+    display:block;
+    margin: 10px 0 0
+}
+.cotiza-datos br {
+    display: none;
+}
+
+select.wpcf7-select {
+    border: 1px solid #bbbbbb;
+    /* padding: 20px; */
+    display: inline-block;
+    height: 30px;
+    border-radius: 0!important;
+    width: 90%;
+}
+/*news form*/
+@media(min-width:992px){
+    .news-tabla form p {
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+    
+    .news-tabla .your-email {
+        width: 70%;
+        margin: 10px 2.5%;
+    }
+
+    .news-tabla .wpcf7-submit {
+        width: 25%;
+        font-size: 16px;
+        border: none;
+        color: #8b001a;
+        height:40px
+    }
+    .news-tabla .your-email input {
+            width: 100%;
+            display:block;
+            height:40px
+    }
+
+}
+
+.news-tabla .your-email {
+    width: 100%;
+
+    
+}
+.news-tabla .your-email input {
+        width: 100%;
+        display:block;
+        padding:5px
+}
+@media(max-width:992px){
+   .news-tabla .wpcf7-submit {
+        width: 100%;
+        font-size: 16px;
+        border: none;
+        color: #8b001a;
+        margin:0;
+        background-color:#fff
+    }
+}
+/*vermas*/
+.et-db #et-boc .et-l .et_overlay::before {
+    content:'VER MÁS'!important;
+    font-family:'Montserrat'!important;
+    width: 100%!important;
+    left: 0!important;
+    margin: auto!important;
+    text-align: center!important;
+    top: 50%!important;
+}
+p#orddd_time_slot_field::after {
+    content: '"Revisar previamente nuestros horarios antes de seleccionar y tener en cuenta que el delivery comienza apartir de las 14 horas"';
+    font-size: 12px;
+    margin: 10px 0;
+    letter-spacing: .5px;
+    font-weight: 500;
+    display: block;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b001a;
+    padding: 10px;
+    border: 1px solid;
+}
+p#e_deliverydate_field:after {
+    content: '"El 24 de Diciembre y 31 de Diciembre el retiro de pedidos y envio es de 8 a 15 horas, una vez que efectúes el pedido nos ponemos en contacto para coordinar el horario"';
+    font-size: 12px;
+    margin: 10px 0;
+    letter-spacing: .5px;
+    font-weight: 500;
+    display: none;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b001a;
+    padding: 10px;
+    border: 1px solid;
+}
+p#billing_state_field::after {
+    content: 'En caso que tu barrio de entrega no esté dentro de las opciones, contactarse antes de efectuar el pedido vía WhatsApp al 116553-9552 para definir alternativas y costo de envío';
+    font-size: 12px;
+    margin: 10px 0;
+    letter-spacing: .5px;
+    font-weight: 500;
+    display: block;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b001a;
+    padding: 10px;
+    border: 1px solid;
+}
+
+li#select2-orddd_time_slot-result-l1b3-select {
+    display: none;
+}
+
+/*calendario*/
+a.ui-state-default.ui-state-active {
+    background: #8b001a!important;
+    color: #fff!important;
+    font-weight: 800!important;
+}
+
+.ui-datepicker-title span {
+    color: #fff!important;
+    font-weight: 800!important;
+}
+
+.ui-datepicker-header {
+    background: #8b001a!important;
+}
+/*ocultamos calculadora y cupon*/
+.woocommerce-cart form.woocommerce-shipping-calculator {
+    display: none;
+}
+.woocommerce form.checkout_coupon {
+    display: flex!important;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form.checkout_coupon p:first-child{
+    display: none;
+}
+.woocommerce-cart  input#coupon_code {
+    width: 240px;
+    font-size: 16px!important;
+    height: unset;
+    padding:7px 15px!important
+}
+/*
+.woocommerce-form-coupon-toggle {
+    display: none;
+}
+.shop_table .coupon {
+    display: none;
+}*/
+#top-menu li {
+    font-size: 14px!important;
+}
+@media(min-width:980px){
+    #et-secondary-menu {
+        float: right;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+@media(max-width:979px){
+    div#top-header {
+    display: none!important;
+    }
+}
+#et-secondary-menu li.micuenta a {
+    padding: 0!important;
+    margin: 0;
+    font-size: 14px;
+}
+li.micuenta a:before {
+    content: '\e08a';
+    font-family: ETmodules!important;
+   margin-right:5px
+    
+}
+#top-header, #top-header a, #et-secondary-nav li li a, #top-header .et-social-icon a:before {
+    text-transform: unset!important;
+}

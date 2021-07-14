@@ -1,0 +1,76 @@
+# Translation of Plugins - AJAX Thumbnail Rebuild - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - AJAX Thumbnail Rebuild - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-24 08:27:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - AJAX Thumbnail Rebuild - Stable (latest release)\n"
+
+#: ajax-thumbnail-rebuild.php:132
+msgid "Rebuilding %s of %s (%s)..."
+msgstr "Reconstruyendo %s de %s (%s)..."
+
+#: ajax-thumbnail-rebuild.php:234
+msgid "If you find this plugin useful, I'd be happy to read your comments on the %splugin homepage%s. If you experience any problems, feel free to leave a comment too."
+msgstr "Si encuentras útil este plugin, me encantaría leer tus comentarios en la %spágina de inicio del plugin%s. Si experimentas cualquier problema, no dudes en dejar también un comentario."
+
+#: ajax-thumbnail-rebuild.php:231
+msgid "Last image"
+msgstr "Última imagen"
+
+#: ajax-thumbnail-rebuild.php:227
+msgid "Rebuild All Thumbnails"
+msgstr "Reconstruir todas las miniaturas"
+
+#: ajax-thumbnail-rebuild.php:224
+msgid "Note: If you've changed the dimensions of your thumbnails, existing thumbnail images will not be deleted."
+msgstr "Nota: Si has cambiado las dimensiones de tus miniaturas, las imágenes en miniatura existentes no serán borradas."
+
+#: ajax-thumbnail-rebuild.php:220
+msgid "Only rebuild featured images"
+msgstr "Reconstruir solo las imágenes destacadas"
+
+#: ajax-thumbnail-rebuild.php:203
+msgid "cropped"
+msgstr "recortada"
+
+#: ajax-thumbnail-rebuild.php:185
+msgid "Toggle all"
+msgstr "Alternar todo"
+
+#: ajax-thumbnail-rebuild.php:184
+msgid "Select which thumbnails you want to rebuild"
+msgstr "Selecciona qué miniaturas quieres reconstruir"
+
+#: ajax-thumbnail-rebuild.php:119
+msgid "No attachments found."
+msgstr "No se han encontrado adjuntos."
+
+#: ajax-thumbnail-rebuild.php:78
+msgid "Ajax Thumbnail Rebuild"
+msgstr "Ajax Thumbnail Rebuild"
+
+#: ajax-thumbnail-rebuild.php:64 ajax-thumbnail-rebuild.php:167
+msgid "Error"
+msgstr "Error"
+
+#: ajax-thumbnail-rebuild.php:60 ajax-thumbnail-rebuild.php:128
+msgid "Done."
+msgstr "Hecho."
+
+#: ajax-thumbnail-rebuild.php:52 ajax-thumbnail-rebuild.php:98
+msgid "Reading attachments..."
+msgstr "Leyendo los adjuntos..."
+
+#: ajax-thumbnail-rebuild.php:23
+msgid "Rebuild Thumbnails"
+msgstr "Reconstruir las miniaturas"
+
+#: ajax-thumbnail-rebuild.php:23
+msgid "Rebuild all Thumbnails"
+msgstr "Reconstruir todas las miniaturas"
